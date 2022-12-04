@@ -11,7 +11,7 @@ int multiple2 = Convert.ToInt32(Console.ReadLine());
 
 int zeilenUmbruch = 10;
 
-for (int i = 1; i <= multiple1; i++)
+for (int i = 1; i <= limit; i++)
 {
     if (i % multiple1 == 0 && i % multiple2 != 0)
     {
