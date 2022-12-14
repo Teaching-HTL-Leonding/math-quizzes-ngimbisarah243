@@ -15,7 +15,7 @@ else if (firstNumber * secondNumber == result )
 {
     Console.WriteLine("Multiply");
 }
-else if (firstNumber / secondNumber == result || secondNumber / firstNumber == result)
+else if (firstNumber / secondNumber ==(int) result || secondNumber / firstNumber == (int)result)
 {
     Console.WriteLine("Divide");
 }
